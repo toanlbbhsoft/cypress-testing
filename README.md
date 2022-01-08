@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screen1.jpg)
+![](https://github.com/kenzot25/creativetodo/blob/main/screen1.png)
 
 ### Links
 
