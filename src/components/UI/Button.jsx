@@ -15,7 +15,7 @@ const Button = ({ id }) => {
       onClick={() => {
         todoCtx.checkTodo(item.id);
       }}
-      className={`${"flex justify-center items-center rounded-full border-2 w-5 h-5 my-4 mx-5 cursor-pointer"} ${
+      className={`${"button flex justify-center items-center rounded-full border-2 w-5 h-5 my-4 mx-5 cursor-pointer"} ${
         item?.isCheck && "bg-checked border-checked"
       }`}
     >

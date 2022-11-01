@@ -1,0 +1,9 @@
+  // package.json
+  // ...
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "eslintIgnore": [
+    "node_modules",
+    "build/*"
+  ],

@@ -10,6 +10,7 @@ const Header = () => {
     <div className="flex flex-row justify-between text-white w-full mb-8 ">
       <p className="text-3xl font-bold text-white ">TO DO</p>
       <img
+        alt=""
         className="w-6 h-6 cursor-pointer hover:w-7 hover:h-7 duration-300 "
         onClick={changeModeHandler}
         src={`${

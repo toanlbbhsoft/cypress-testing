@@ -13,8 +13,8 @@ const ListItems = ({ status }) => {
     } else if (status === "completed") {
       setItems(todoCtx.items.filter((item) => item.isCheck));
     }
-  }, [status, todoCtx.items.length]);
-
+  }, [status, todoCtx.items, todoCtx.items.length]);
+  console.log('items',todoCtx.items)
   return (
     <ul className="flex flex-col justify-start w-full overflow-y-auto scroll-smooth overflow-hidden max-h-64">
       {items?.map((item) => (
